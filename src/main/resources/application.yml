@@ -1,0 +1,37 @@
+blog:
+  username: ${ADMIN_USERNAME}
+  password: ${ADMIN_PASSWORD}
+  # 文件上传路径
+  upload-path: ${UPLOAD_DIR:upload}
+server:
+  port: ${PORT:8080}
+  servlet:
+    session:
+      cookie:
+        same-site: strict # 严格限制cookie为同域
+spring:
+  application:
+    name: flapypan-blog-api
+  profiles:
+    default: prod
+  datasource:
+    url: ${DB_URL:jdbc:h2:file:./data/flapypan-blog}
+    username: ${DB_USERNAME:sa}
+    password: ${DB_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+  servlet:
+    # 文件上传配置
+    multipart:
+      enabled: true
+      max-file-size: 32MB
+      max-request-size: 128MB
+  mvc:
+    # 此前缀的请求将会由静态资源处理器处理
+    static-path-pattern: /static/**
+  web:
+    resources:
+      # 自带的静态资源处理器读取文件的位置
+      static-locations: file:${blog.upload-path}

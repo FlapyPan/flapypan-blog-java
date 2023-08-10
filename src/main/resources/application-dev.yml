@@ -1,0 +1,4 @@
+spring:
+  jpa:
+    # 打印 sql
+    show-sql: true
