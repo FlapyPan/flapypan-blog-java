@@ -4,6 +4,8 @@
 
 **本仓库为后端项目，要配合下列其中之一的前端项目使用**
 
+**请对应版本号，例：前端版本`v1.2.x`则后端也使用`v1.2.x`**
+
 | 名称                | Gitea 地址                                              | Github 地址                                     |
 |-------------------|-------------------------------------------------------|-----------------------------------------------|
 | flapypan-blog-vue | <https://git.flapypan.top/FlapyPan/flapypan-blog-vue> | https://github.com/FlapyPan/flapypan-blog-vue |
