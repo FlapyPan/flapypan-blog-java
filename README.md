@@ -1,14 +1,15 @@
 # FlapyPan Blog
 
+**本仓库已经停止维护(v1.3.0)，请迁移至 [kotlin 版本](https://github.com/FlapyPan/flapypan-blog-spring)**
+
+
 基于 SpringBoot 3 开发一款简单高效的博客系统(后端程序)
 
-**本仓库为后端项目，要配合下列其中之一的前端项目使用**
+**本仓库为后端项目，要配合下列其中之一的前端项目使用。请对应版本号，例：前端版本`v1.2.x`则后端也使用`v1.2.x`**
 
-**请对应版本号，例：前端版本`v1.2.x`则后端也使用`v1.2.x`**
-
-| 名称                | Gitea 地址                                              | Github 地址                                     |
-|-------------------|-------------------------------------------------------|-----------------------------------------------|
-| flapypan-blog-vue | <https://git.flapypan.top/FlapyPan/flapypan-blog-vue> | https://github.com/FlapyPan/flapypan-blog-vue |
+| 名称                | Github 地址                                     |
+|-------------------|-----------------------------------------------|
+| flapypan-blog-vue | https://github.com/FlapyPan/flapypan-blog-vue |
 
 ## 功能列表
 
